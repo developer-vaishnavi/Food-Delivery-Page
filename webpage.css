@@ -1,0 +1,111 @@
+#top1{
+    font-family: 'Raleway', sans-serif;
+    color: red;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900 bolder;
+
+}
+#top2{
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: large;
+
+}
+#navbar img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 3px;
+}
+#navbar{
+    background-color: rgb(236, 52, 52);
+    display: flex;
+    flex-direction: column;
+    height: 14vh;
+    width: 100vw;
+    margin-top: 10px;
+    border: 2px solid red;
+    border-radius: 15px;
+}
+#navigation{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    margin: 10px;
+    border-radius: 20px;
+}
+ul li a{
+    padding: 1px;
+    color:white;
+    text-decoration: none;
+    border-radius:15px;
+}
+ul li a:hover{
+    background-color: rgba(35, 20, 20, 0.601);
+    border-radius: 15px;
+}
+#container1{
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 63vh;
+}
+#container1::before{
+    content: '';
+    background-image: url(container1_background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 50vh;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    opacity: 0.89;
+    z-index: -1;
+    border: 2px solid black;
+    border-bottom-left-radius:100px ;
+}
+  /*  
+    opacity: 0.79;
+    width: 100vw;
+    height: 63vh;
+    position: absolute;
+    
+    font-weight: 900;
+   */
+#row{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900 bolder;
+    color: black;
+    margin-top: 35px;
+}
+.btn{
+    margin-top: 10px;
+    padding: 2px;
+    margin-top:15px;
+    border: 3px solid white;
+    border-radius:15px;
+    background-color:yellow;
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+#container3{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+}
+#row2{
+    background-image: url(download.jpeg);
+}
