@@ -64,7 +64,7 @@ ul li a:hover{
     background-size: cover;
     background-position: center;
     width: 100vw;
-    height: 50vh;
+    height: 63vh;
     position: absolute;
     top:0px;
     left: 0px;
@@ -83,17 +83,15 @@ ul li a:hover{
     
     font-weight: 900;
    */
-#row{
+#row1{
     text-align: center;
     font-size: 2rem;
     font-weight: 900 bolder;
     color: black;
-    margin-top: 35px;
+    margin-top: 5px;
 }
 .btn{
-    margin-top: 10px;
-    padding: 2px;
-    margin-top:15px;
+    margin-top: 6px;
     border: 3px solid white;
     border-radius:15px;
     background-color:yellow;
@@ -101,11 +99,99 @@ ul li a:hover{
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
 }
+.btn:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
 #container3{
     display: flex;
     /* flex-direction: row; */
     justify-content: space-evenly;
 }
 #row2{
+    
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-right: 34px; 
+    margin-top: 61px;
+    width: 29vw;
+    height: 31vh;
     background-image: url(download.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
 }
+
+#row3{
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    margin-right: 34px; 
+    margin-top: 61px;
+    width: 29vw;
+    height: 31vh;
+    background-image: url(images.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+#container2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 41px;
+}
+#row4{
+box-shadow: 3px 3px 3px 3px;
+border-radius: 10px;
+width: 29vw;
+height: 34vh;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+position: relative;
+background-image: url(pizza.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: 35px;
+}
+#row5{
+    box-shadow: 3px 3px 3px 3px;
+    border-radius: 10px;
+    width: 29vw;
+    height: 34vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    background-image: url(Meal.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 35px;
+    }
+    #row6{
+    box-shadow: 3px 3px 3px 3px;
+    border-radius: 10px;
+    width: 29vw;
+    height: 34vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    background-image: url(Chowchow.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 35px;
+    }
+    footer{
+        text-align: center;
+    }
