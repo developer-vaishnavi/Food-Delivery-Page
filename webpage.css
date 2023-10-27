@@ -195,3 +195,41 @@ margin-left: 35px;
     footer{
         text-align: center;
     }
+    #form{
+        background-color: blueviolet;
+        margin: 50px auto;
+        padding: 30px 20px;
+        max-width: 500px;
+        text-align: left;
+    }
+    input{
+        display: inline-block;
+        width: 95%;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    select{
+        display: inline-block;
+        width: 95%;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    label{
+        display: inline-block;
+        margin-bottom: 10px;
+       
+    }
+    textarea{
+        display: inline-block;
+        width: 95%;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+    #body{
+       
+        margin: 20px;
+        text-align: center;
+    }
+#Ques{
+    width: 10%;
+}
